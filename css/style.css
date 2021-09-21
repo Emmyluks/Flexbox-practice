@@ -180,14 +180,11 @@ header {
 .article {
     background-color: #fff;
     padding: 3rem;
-    
-    /*border: 1px solid black;*/
 }
 
 .article-image-container, .article-text-container {
     height: 35rem;
     display: flex;
-    /*align-items: center;*/
 }
 
 .article-image-container {
@@ -197,7 +194,7 @@ header {
 }
 
 .article-image-container .article-img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .article-text-container {
